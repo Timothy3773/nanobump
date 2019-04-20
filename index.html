@@ -25,8 +25,12 @@
     </nav>
 </body>
 <script>
-document.querySelector("button").onclick = () => {
+document.getElementById("invite").onclick = () => {
     window.location.assign("https://discordapp.com/oauth2/authorize?client_id=568232496638984253&permissions=2049&scope=bot")
+}
+
+document.getElementById("join").onclick = () => {
+    window.location.assign("https://discord.gg/7MDqkzj")
 }
 </script>
 </html>
