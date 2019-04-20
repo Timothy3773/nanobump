@@ -1,0 +1,59 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:600,700|Open+Sans|Ubuntu+Mono";
+
+html, body {
+    margin: 0;
+    background-color: #1b1b1b;
+    font-family: 'Open Sans';
+    color: white;
+}
+
+nav {
+    text-align: center;
+}
+
+.blue {
+    color: #4c8bf5;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.br1 {
+    line-height: 2;
+}
+
+button {
+    font-family: 'Open Sans';
+    border: 1.2px solid rgb(150, 163, 172);
+    border-radius: 5px;
+    background-color: #2C2F33;
+    font-size: 25px;
+    color: #4c8bf5;
+}
+
+hr {
+    width: 50%;
+    border-color: #2C2F33;
+    border-style: solid;
+    border-width: 1.6px;
+    border-radius: 20px;
+}
+
+code {
+    background-color: #23272A;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.note {
+    font-size: 20px;
+    color: #99AAB5;
+    padding: 7px;
+    border: 1px solid #2C2F33;
+}
+
+.xd {
+    line-height: 1.6;
+}

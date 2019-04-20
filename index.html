@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>NanoBump</title>
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/398858363288420353/568762693377589258/NNBB.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css">
+</head>
+<body>
+    <nav>
+        <h1 class="blue">NanoBump</h1>
+        <div class="flex">
+            <button class="invite">Invite Bot</button>
+            <button class="join">Support Server</button>
+        </div>
+    </nav>
+    <hr>
+    <nav>
+        <h2 class="blue">NanoBump makes advertising/bumping your server extremely easy and user-friendly!</h2>
+        <h2 class="blue">To preview your bump, simply do <code>nb@preview</code></h2>
+        <h2 class="blue">To bump, do <code>nb@bump</code><br class="xd"><span class="note">[You can only bumps once per day, and only owners can]</span></h2>
+        <h2 class="blue">To receive bumps, create a channel called <code>nanobump</code></h2>
+    </nav>
+</body>
+<script>
+document.querySelector("button").onclick = () => {
+    window.location.assign("https://discordapp.com/oauth2/authorize?client_id=568232496638984253&permissions=2049&scope=bot")
+}
+</script>
+</html>
